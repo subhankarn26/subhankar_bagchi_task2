@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T21:32:16Z" name="Suite" finished-at="2022-01-24T21:33:37Z" duration-ms="80881">
+    <groups>
+    </groups>
+    <test started-at="2022-01-24T21:32:16Z" name="Test" finished-at="2022-01-24T21:33:37Z" duration-ms="80881">
+      <class name="moneyfyTest.Add_Income_Expense_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:16Z" name="setUp" finished-at="2022-01-24T21:32:26Z" duration-ms="9543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="launchApp()[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:26Z" name="launchApp" finished-at="2022-01-24T21:32:31Z" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:31Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:32:40Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="9377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Income]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Salary]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3520]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Salary of month]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:40Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:32:48Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="7880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Income]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deposits]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Deposit received]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:48Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:32:56Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="8025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Income]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[248]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Own savings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:32:56Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:33:04Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="7542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Expense]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Car]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Car maintanance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:33:04Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:33:28Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="24313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Expense]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Health]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[145]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Covid Medicine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method signature="addIncome(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:33:28Z" name="addIncome" data-provider="moneyfy-dataprovider" finished-at="2022-01-24T21:33:37Z" depends-on-methods="moneyfyTest.Add_Income_Expense_test.launchApp" duration-ms="8677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Expense]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[House]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1560]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Home Loan Repayment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIncome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:moneyfyTest.Add_Income_Expense_test@600b90df]" started-at="2022-01-24T21:33:37Z" name="tearDown" finished-at="2022-01-24T21:33:37Z" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- moneyfyTest.Add_Income_Expense_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
